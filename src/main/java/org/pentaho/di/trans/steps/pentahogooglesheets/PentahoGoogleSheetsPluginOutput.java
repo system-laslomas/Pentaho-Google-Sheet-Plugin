@@ -321,7 +321,7 @@ public class PentahoGoogleSheetsPluginOutput extends BaseStep implements StepInt
 									String valueInputOption = "USER_ENTERED"; // TODO: Update placeholder value.
 
 									// How the input data should be inserted.
-									String insertDataOption = "INSERT_ROWS"; // TODO: Update placeholder value.
+									String insertDataOption = "OVERWRITE"; // TODO: Update placeholder value.
 
 									// TODO: Assign values to desired fields of `requestBody`:
 									ValueRange body = new ValueRange().setValues(data.rows);
